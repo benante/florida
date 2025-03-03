@@ -61,6 +61,10 @@ body {
 .contatti a {
   color: var(--blue-color);
 }
+iframe {
+  width: 600px;
+  height: 400px;
+}
 
 /* FOOTER */
 footer {
@@ -238,7 +242,7 @@ nav ul li a {
 @media screen and (max-width: 768px) {
   body {
     font-size: 1em;
-    padding: 0 1em;
+    padding: 0 0.2em;
   }
   .footer {
     display: block;
