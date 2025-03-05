@@ -33,11 +33,11 @@ body {
 }
 
 .btn {
+  padding: 1em;
   background-color: var(--blue-color);
   color: white;
-  padding: 0.5em 1em;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   transition: background-color 0.3s;
   box-shadow: 1px 1px 2px 0px black;
@@ -178,7 +178,7 @@ iframe {
   box-shadow: 0px 0px 5px 0px;
   width: 4em;
   height: 4em;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 #menu-toggle {
   display: none;
@@ -257,8 +257,9 @@ nav ul li a {
 
   /* actual hamburger icon */
   .menu-button-container {
+    align-self: flex-end;
     display: flex;
-    margin: 70px;
+    margin: 30px;
   }
 
   /* hamburger menu list */
