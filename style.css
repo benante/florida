@@ -1,6 +1,8 @@
 :root {
   --text-color: #147181;
   --blue-color: #3794b3;
+  --l-blue-color: #b9e0e5;
+  --l-green-color: #bbdcc7;
 }
 
 /* .montserrat-font {
@@ -22,6 +24,24 @@ body {
   padding: 0 5em;
   font-size: 1.2em;
 }
+
+section {
+  padding: 2em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: monospace;
+}
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -30,6 +50,9 @@ body {
 
 .mt-0 {
   margin-top: 0;
+}
+.tap-transparent {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn {
@@ -46,7 +69,9 @@ body {
   margin-top: 1em;
 }
 .btn:hover {
-  background-color: var(--text-color);
+  background-color: var(--l-green-color);
+  color: black;
+  box-shadow: 3px 3px 1px 0px black;
 }
 .tree-container {
   display: flex;
@@ -85,19 +110,7 @@ footer {
 .icons-footer-container > a img {
   width: 50px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: monospace;
-}
-ul,
-li {
-  padding: 0;
-  list-style: none;
-}
+
 iframe {
   border: none;
   width: 100%;
@@ -105,13 +118,13 @@ iframe {
 .main-container {
   display: grid;
 }
-.main-container > * {
+.main-container {
   /* margin: 0 auto; */
-  padding: 20px;
+  padding: 2em 1em;
 }
 
 .heading {
-  background-color: #b9e0e5;
+  background-color: var(--l-blue-color);
   padding-left: 10px;
   position: relative;
   max-width: fit-content;
@@ -263,6 +276,7 @@ nav ul li a {
   }
 
   /* hamburger menu list */
+
   .menu {
     left: 0;
     flex-direction: column;

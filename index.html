@@ -30,7 +30,7 @@
     <header>
       <nav class="navbar">
         <input id="menu-toggle" type="checkbox" />
-        <label class="menu-button-container" for="menu-toggle">
+        <label class="menu-button-container tap-transparent" for="menu-toggle">
           <div class="menu-button"></div>
         </label>
         <div class="logo-container">
@@ -52,7 +52,7 @@
 
     <main class="main-container">
       <h1>Benvenuti a Florìda</h1>
-      <section class="">
+      <section class="border-bottom">
         <div class="heading">
           <h2 class="custom-h2-green">Chi siamo</h2>
         </div>
@@ -74,7 +74,7 @@
           benessere.
         </p>
       </section>
-      <section class="">
+      <section class="border-bottom">
         <div class="heading">
           <h2 class="custom-h2-green">I nostri servizi</h2>
         </div>
@@ -113,10 +113,12 @@
           </div>
         </div>
         <a href="/servizi"
-          ><button class="btn">Scopri i nostri servizi</button></a
+          ><button class="btn tap-transparent">
+            Scopri i nostri servizi
+          </button></a
         >
       </section>
-      <section>
+      <section class="border-bottom">
         <div class="heading">
           <h2 class="custom-h2-green">Dove siamo</h2>
         </div>
@@ -136,55 +138,57 @@
             ></iframe>
           </div>
         </div>
-        <div class="tree-container">
-          <img src="imgs/tree.png" class="tree-img" alt="tree img" />
+      </section>
+      <section class="border-bottom">
+        <div class="heading">
+          <h2 class="custom-h2-green">Contatti</h2>
+        </div>
+        <div class="footer">
+          <div class="contatti">
+            <div>
+              <h3 class="mt-0">Telefono</h3>
+              <p>1234567890</p>
+            </div>
+            <div>
+              <h3 class="mt-0">Email</h3>
+              <p>
+                <a href="mailto:floridastudio.info@gmail.com"
+                  >floridastudio.info@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div>
+            <h3 class="mt-0">Orari</h3>
+            <p>
+              Lunedì - Venerdì: 9:00 - 20:00
+              <br />
+              Sabato: 9:00 - 13:00
+            </p>
+          </div>
+          <div class="icons-footer-container">
+            <a
+              href="https://www.facebook.com/p/Flor%C3%ACda-fiorire-in-salute-61555066342532/"
+              ><img src="imgs/square-facebook-brands.svg" alt="facebook logo"
+            /></a>
+            <a href="https://www.instagram.com/florida_fiorireinsalute/">
+              <img
+                src="imgs/square-instagram-brands.svg"
+                alt="instagram logo"
+              />
+            </a>
+          </div>
         </div>
       </section>
     </main>
-
     <!-- END OF MAIN -->
 
     <!-- FOOTER  -->
 
     <footer>
-      <div class="heading">
-        <h2 class="custom-h2-green">Contatti</h2>
-      </div>
-      <div class="footer">
-        <div class="contatti">
-          <div>
-            <h3 class="mt-0">Telefono</h3>
-            <p>1234567890</p>
-          </div>
-          <div>
-            <h3 class="mt-0">Email</h3>
-            <p>
-              <a href="mailto:floridastudio.info@gmail.com"
-                >floridastudio.info@gmail.com</a
-              >
-            </p>
-          </div>
-        </div>
-        <div>
-          <h3 class="mt-0">Orari</h3>
-          <p>
-            Lunedì - Venerdì: 9:00 - 20:00
-            <br />
-            Sabato: 9:00 - 13:00
-          </p>
-        </div>
-        <div class="icons-footer-container">
-          <a
-            href="https://www.facebook.com/p/Flor%C3%ACda-fiorire-in-salute-61555066342532/"
-            ><img src="imgs/square-facebook-brands.svg" alt="facebook logo"
-          /></a>
-          <a href="https://www.instagram.com/florida_fiorireinsalute/">
-            <img src="imgs/square-instagram-brands.svg" alt="instagram logo" />
-          </a>
-        </div>
+      <div class="tree-container">
+        <img src="imgs/tree.png" class="tree-img" alt="tree img" />
       </div>
     </footer>
-
-    <script src="app.js"></script>
   </body>
 </html>
